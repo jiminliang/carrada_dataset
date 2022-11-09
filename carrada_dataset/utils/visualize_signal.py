@@ -96,7 +96,7 @@ class SignalVisualizer():
         if save_img:
             plt.savefig(path)
         if plot_img:
-            plt.show(img)
+            plt.show()
         plt.close()
 
     def save_annotation(self, index, path, signal_type='range_doppler', color_scale=None,
@@ -135,7 +135,7 @@ class SignalVisualizer():
         if save_img:
             plt.savefig(path)
         if plot_img:
-            plt.show(img)
+            plt.show()
         plt.close()
 
     def save_multiple_annotations(self, path, signal_type='range_doppler', color_scale=None,
@@ -163,7 +163,7 @@ class SignalVisualizer():
         if save_img:
             plt.savefig(path)
         if plot_img:
-            plt.show(img)
+            plt.show()
         plt.close()
 
     def _format_img(self, img, signal_type, color_scale, rotation):
